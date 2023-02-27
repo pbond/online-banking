@@ -1,0 +1,51 @@
+.card-item {
+  width: 360px;
+  height: 213px;
+  background-repeat: no-repeat;
+  @apply flex flex-col p-2.5 mb-20 text-white rounded-lg; /*320px*/
+}
+
+.card {
+  width: 340px;
+  height: 213px;
+  background-repeat: no-repeat;
+  @apply flex flex-col p-2.5 mb-3 text-white rounded-lg; /*320px*/
+}
+
+.card-number,
+.card-term,
+.card-balance {
+  @apply flex;
+}
+
+.card-logo {
+  padding-bottom: 2rem;
+}
+
+.card-number {
+  @apply justify-center p-1.5;
+}
+
+.card-term {
+  @apply justify-center gap-x-2.5 p-1.5;
+}
+
+.card-term__text {
+  font-size: 10px;
+}
+
+.card-balance {
+  @apply justify-between;
+}
+
+.icon-eye {
+  cursor: pointer;
+}
+
+.button-replenish.active {
+  @apply block w-full bg-amber-400 hover:bg-amber-500;
+}
+
+.button-replenish.no-active {
+  @apply hidden;
+}

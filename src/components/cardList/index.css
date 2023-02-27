@@ -1,0 +1,33 @@
+.cardList-container {
+  @apply py-5 border-b border-solid border-b-gray-200;
+}
+
+.cardList__head {
+  @apply flex justify-between pb-6;
+}
+
+.cardList__buttons {
+  @apply flex gap-x-5;
+}
+
+.cardList__content {
+  @apply flex flex-wrap justify-evenly;
+}
+
+.cardList__title {
+  @apply text-xl text-blue-800;
+}
+
+.button {
+  @apply p-2.5 text-white rounded;
+}
+
+.button-add,
+.button-take-credit,
+.button-my-credits {
+  @apply bg-amber-400 hover:bg-amber-500;
+}
+
+a.pointer-events-none > button {
+  @apply bg-slate-300;
+}
